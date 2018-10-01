@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import SearchBars from "./search_bars";
 import BooleanDisplay from "./boolean_display";
+import TitleInfo from "./header";
 
 class App extends Component {
   state = {
@@ -11,7 +11,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-components">
+        <TitleInfo />
         <SearchBars
           pullBoolean={value => this.setState({ myBoolean: value })}
         />
