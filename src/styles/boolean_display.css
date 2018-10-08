@@ -1,0 +1,11 @@
+#panel-info {
+  width: 20%;
+  position: relative;
+  display: inline-flex;
+  left: 50%;
+  top: -20%;
+  border: solid 3px darkgray;
+  border-radius: 10px;
+  height: 20%;
+  color: lightgray;
+}

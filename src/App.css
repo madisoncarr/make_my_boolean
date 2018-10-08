@@ -1,33 +1,4 @@
-.App-main-components {
+main-components {
   text-align: center;
-  background-image: linear-gradient (bottom right, #0099cc, #0d47a1);
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: linear-gradient (bottom right, #0099cc, #0d47a1);
 }
