@@ -1,21 +1,31 @@
 .title-name {
   font: 50px;
   color: white;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   align-content: center;
-  left: 40%;
+  left: 30%;
   font-weight: 100;
+  letter-spacing: -1px;
+  font-size: 70px;
   top: 20%;
+  opacity: 0.8;
   background: linear-gradient (to bottom right, #0d47a1, pink);
 }
 
 .gen-description {
   font: 20px;
   color: white;
-  font-family: "Monserrat", sans-serif;
-  font-weight: 300;
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
   position: relative;
   left: 40%;
   font-weight: 100;
+}
+
+.blue-part {
+  background-color: #6e9ac6;
+  border-radius: 5px;
+  padding-right: 2px;
 }

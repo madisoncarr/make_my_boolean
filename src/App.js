@@ -13,9 +13,11 @@ class App extends Component {
     return (
       <div className="main-components">
         <TitleInfo />
-        <SearchBars
-          pullBoolean={value => this.setState({ myBoolean: value })}
-        />
+        <div className="search-components">
+          <SearchBars
+            pullBoolean={value => this.setState({ myBoolean: value })}
+          />
+        </div>
         <BooleanDisplay passBoolean={this.state.myBoolean} />
       </div>
     );
