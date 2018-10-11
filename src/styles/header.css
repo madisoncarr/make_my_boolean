@@ -3,12 +3,12 @@
   color: white;
   font-family: "Open Sans", sans-serif;
   position: relative;
-  align-content: center;
-  left: 30%;
+  align-self: center;
+  width: 100%;
+  left: 25%;
   font-weight: 100;
   letter-spacing: -1px;
   font-size: 70px;
-  top: 20%;
   opacity: 0.8;
   background: linear-gradient (to bottom right, #0d47a1, pink);
 }
@@ -20,8 +20,9 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
   position: relative;
-  left: 40%;
+  left: 27%;
   font-weight: 100;
+  margin-bottom: 5%;
 }
 
 .blue-part {

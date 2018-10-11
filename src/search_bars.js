@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./styles/search_bars.css";
 
 class SearchBars extends Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class SearchBars extends Component {
 
   render() {
     return (
-      <div>
+      <div className="general-search-container">
         <div className="titles-search-bar">
           <p>
             Please enter the titles you would like to search for separated by
@@ -82,7 +83,7 @@ class SearchBars extends Component {
             </label>
           </div>
         </div>
-        <div>
+        <div className="button-container">
           <button
             type="button"
             className="btn btn-info"

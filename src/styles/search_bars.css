@@ -1,0 +1,22 @@
+.titles-search-bar input {
+  width: 80%;
+  margin-bottom: 2%;
+}
+
+.keywords-search-bar input {
+  width: 80%;
+  margin-bottom: 2%;
+}
+
+.titles-search-bar {
+  margin-top: 2%;
+}
+
+.button-container {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.general-search-container {
+  margin-left: 2%;
+}

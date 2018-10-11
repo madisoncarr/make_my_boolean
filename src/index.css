@@ -4,10 +4,11 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
   position: relative;
-  margin-top: 15%;
   overflow: scroll;
   background-image: linear-gradient(to bottom right, #ffd89b, #19547b);
   background-repeat: no-repeat;
+  height: 100%;
+  weight: 100%;
 }
 
 .gradient {
