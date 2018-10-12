@@ -18,7 +18,9 @@ class App extends Component {
             pullBoolean={value => this.setState({ myBoolean: value })}
           />
         </div>
-        <BooleanDisplay passBoolean={this.state.myBoolean} />
+        <div className="boolean-display">
+          <BooleanDisplay passBoolean={this.state.myBoolean} />
+        </div>
       </div>
     );
   }

@@ -1,6 +1,5 @@
 main-components {
   text-align: center;
-  background-color: linear-gradient (bottom right, #0099cc, #0d47a1);
 }
 
 .search-components {
@@ -10,10 +9,23 @@ main-components {
   border-radius: 5px;
   width: 45%;
   position: relative;
+  display: inline-flex;
   left: 3%;
   padding-left: 5px;
 }
 
 .title-info {
   top: 10%;
+}
+
+.boolean-display {
+  background-color: #c2c2c2;
+  opacity: 0.6;
+  border: solid #adadad 5px;
+  border-radius: 5px;
+  width: 45%;
+  position: relative;
+  display: inline-flex;
+  left: 5%;
+  top: -70%;
 }
