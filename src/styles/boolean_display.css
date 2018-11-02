@@ -1,11 +1,16 @@
 #panel-info {
-  width: 20%;
+  width: 75%;
   position: relative;
-  display: inline-flex;
-  left: 50%;
-  top: -50%;
-  border: solid 3px darkgray;
-  border-radius: 10px;
+  display: block;
   height: 20%;
-  color: lightgray;
+  margin-left: 5px;
+  left: 15%;
+  align-items: center;
+  background-color: darkslategray;
+  overflow: scroll;
+}
+
+#boolean-instructions p {
+  margin-left: 5px;
+  border: solid 2px pink; 
 }

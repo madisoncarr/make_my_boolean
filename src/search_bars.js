@@ -4,7 +4,6 @@ import "./styles/search_bars.css";
 class SearchBars extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       titles: "",
       keywords: "",

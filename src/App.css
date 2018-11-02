@@ -27,5 +27,6 @@ main-components {
   position: relative;
   display: inline-flex;
   left: 5%;
-  top: -70%;
+  top: -.45em;
+  height: 23.6em;
 }
