@@ -1,5 +1,7 @@
-main-components {
-  text-align: center;
+.main-components {
+  border: solid 5px pink;
+  position: relative;
+  top: 10em;
 }
 
 .search-components {
@@ -27,6 +29,13 @@ main-components {
   position: relative;
   display: inline-flex;
   left: 5%;
-  top: -.45em;
-  height: 23.6em;
+  top: -.7em;
+  height: 100%;
+}
+
+.grey-components {
+  width: 100%;
+  border: solid 5px brown;
+  /* position: relative; */
+  top: 25%;
 }

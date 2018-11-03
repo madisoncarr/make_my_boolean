@@ -1,8 +1,8 @@
-#panel-info {
+.panel-info {
   width: 75%;
   position: relative;
   display: block;
-  height: 20%;
+  height: 100%;
   margin-left: 5px;
   left: 15%;
   align-items: center;
@@ -10,7 +10,11 @@
   overflow: scroll;
 }
 
-#boolean-instructions p {
+.boolean-instructions p {
   margin-left: 5px;
   border: solid 2px pink; 
+}
+
+.full-boolean-display {
+  height: 100%;
 }

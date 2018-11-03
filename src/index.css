@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(to bottom right, #ffd89b, #19547b);
   background-repeat: no-repeat;
   height: 100%;
-  weight: 100%;
+  width: 100%;
 }
 
 html {

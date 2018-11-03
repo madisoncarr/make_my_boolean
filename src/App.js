@@ -13,13 +13,15 @@ class App extends Component {
     return (
       <div className="main-components">
         <TitleInfo />
-        <div className="search-components">
-          <SearchBars
-            pullBoolean={value => this.setState({ myBoolean: value })}
-          />
-        </div>
-        <div className="boolean-display">
-          <BooleanDisplay passBoolean={this.state.myBoolean} />
+        <div className="grey-components">
+          <div className="search-components">
+            <SearchBars
+              pullBoolean={value => this.setState({ myBoolean: value })}
+            />
+          </div>
+          <div className="boolean-display">
+            <BooleanDisplay passBoolean={this.state.myBoolean} />
+          </div>
         </div>
       </div>
     );

@@ -3,7 +3,7 @@ import "./styles/boolean_display.css";
 
 let BooleanDisplay = props => {
   return (
-    <div>
+    <div className="full-boolean-display">
       <div className="boolean-instructions">
         <p>Here is your Boolean Search:</p>
       </div>
