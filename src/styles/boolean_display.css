@@ -1,20 +1,36 @@
-.panel-info {
-  width: 75%;
+#panel-info {
+  width: 40rem;
+  height: 15rem;
   position: relative;
   display: block;
-  height: 100%;
-  margin-left: 5px;
-  left: 15%;
+  margin-left: 2rem;
+  top: 2rem;
   align-items: center;
-  background-color: darkslategray;
+  background-color: #adadad; 
   overflow: scroll;
+  text-align: center; 
+  justify-content: center;
+}
+
+#panel-info p {
+  display: inline-block;
+  position: relative;
+  top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .boolean-instructions p {
   margin-left: 5px;
-  border: solid 2px pink; 
 }
 
 .full-boolean-display {
   height: 100%;
+}
+
+.full-boolean-display button {
+  display: block;
+  position: relative; 
+  margin-left: 1.5rem;
+  top: 7rem;
 }
